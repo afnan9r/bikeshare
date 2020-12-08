@@ -9,9 +9,7 @@ city_data = { 'Chicago': 'chicago.csv',
 months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-city = ''
-month = ''
-day = ''
+city, month, day = '', '', ''
 
 def get_filters():
     """
