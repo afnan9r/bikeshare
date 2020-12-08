@@ -197,9 +197,9 @@ def raw_data(df):
     rows = df.shape[0]
     while(True):
         user_input =  input("\nWould you like to view trip data? Enter 'yes' or 'no'\n")
-        if user_input.title() == 'No':
+        if user_input.title() in ['No', 'N']:
             break
-        elif user_input.title() == 'Yes':
+        elif user_input.title() in ['Yes', 'Y']:
             if i+5 < rows:
                 print(df.iloc[i:i+5])
                 i= i+ 5
