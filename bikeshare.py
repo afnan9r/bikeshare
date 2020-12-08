@@ -29,7 +29,7 @@ def get_filters():
     global city, day, month
     
     while(True):
-        city = input("Would you like to see data for New York, Chicago or Washington?\n").title()
+        city = input("Would you like to see data for New York City, Chicago or Washington?\n").title()
         if city in ['New York', 'Chicago', 'Washington']:
             break
         print("!!!\nOops! Your input is invalid. Let's try again by writing only one of the 3 citis listed above!")
