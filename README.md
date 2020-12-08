@@ -8,9 +8,6 @@ Bikeshare Project
 The bikeshare project is a Python language project made for the Programming for Data Science ND
 
 ### Files used
-chicago.csv
-washington.csv
-new_york_city.csv
 bikeshare.py
 
 ### Credits
